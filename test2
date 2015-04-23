@@ -1,0 +1,52 @@
+/*
+ * This is a JavaScript Scratchpad.
+ *
+ * Enter some JavaScript, then Right Click or choose from the Execute Menu:
+ * 1. Run to evaluate the selected text (Ctrl+R),
+ * 2. Inspect to bring up an Object Inspector on the result (Ctrl+I), or,
+ * 3. Display to insert the result in a comment after the selection. (Ctrl+L)
+ */
+
+/*var a;
+console.log("The value of a is " + a);
+console.log("The value of b is " + b);*/
+
+/*
+Exception: ReferenceError: b is not defined
+@Scratchpad/1:12:1
+*/
+/*
+undefined
+*/
+
+var input;
+if(input === undefined)
+{
+  doThis();
+}
+else
+{
+  doThat();
+}
+function doThis()
+{
+  document.write("Hi");
+}
+function doThat()
+{
+  document.write("hello");
+}
+
+/*
+Exception: ReferenceError: doThis is not defined
+@Scratchpad/1:25:3
+*/
+
+/*
+Exception: ReferenceError: doThis is not defined
+@Scratchpad/1:25:3
+*/
+/*
+undefined
+*/
+
